@@ -45,7 +45,6 @@ class MainKiost:
         self.kiosks = dic
 
     def service(self):
-        print(self.kiosks)
         idx = int(input("0.커피 1.베이커리 :"))
         kiosk = self.kiosks[idx]
         kiosk.start_service()
